@@ -2,7 +2,6 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -20,28 +19,88 @@
             font-family: 'Raleway', Arial, Helvetica, sans-serif;
         }
 
+        a {
+            text-decoration: none;
+        }
+
         .jumbotron {
             background-color: #ffffff;
         }
 
 
         /* début blocks gris */
+
         .container-1 {
+            display: flex;
+        }
+
+        .container-2 {
+            flex: 1;
+            margin:5px;
+        }
+
+        .bloc {
             background: #f2f2f2;
             padding: 20px;
             margin: 10px;
-            border-radius: .5rem!important
+            border-radius: .5rem
+        }
+
+        .bloc-1 {
+            flex: 4;
+            display: flex;
+        }
+
+        .bloc-2 {
+            flex: 2;
+            display: flex;
         }
 
         .cartes-hotel {
-            border-radius: 1rem!important
+            padding:0.5rem;
+            position:relative;
+            display:flex;
+            flex-direction:column;
+            min-width:0;
+            word-wrap:break-word;
+            background-color:#ffffff;
+            background-clip:border-box;
+            border:1px solid rgba(0,0,0,.125);
+            border-radius:0.5rem;
         }
 
-        .p-3 {
-            padding: 0.5rem!important;
+        .carte-corps {
+            flex:1 1 auto;
+            min-height:1px;
+            padding:1.25rem
         }
 
-        h5{
+        .carte-titre {
+        margin: 0rem
+        }
+
+        .img-hotel {
+            border-top-left-radius:0.5rem;
+            border-top-right-radius:0.5rem;
+            width: 100%;
+            height: 110px;
+            object-fit: cover;
+        }
+
+        .img-gauche {
+            border-top-left-radius:0.5rem;
+            border-bottom-left-radius:0.5rem;
+            width: 50%;
+            height: 110px;
+            object-fit: cover;
+        }
+
+        .populaire {
+            display: flex;
+            flex-direction: row;
+        }
+
+        h5 {
             color: #000000;
             font-size: 0.9em;
             font-weight: 700;
@@ -49,16 +108,9 @@
             font-family: 'Raleway', Arial, Helvetica, sans-serif;
         }
 
-        p.card-text {
+        p.petit {
             font-size: 0.8em;
             line-height: 0.5em;
-        }
-
-        .card-body {
-            -ms-flex: 1 1 auto;
-            flex: 1 1 auto;
-            min-height: 1px;
-            padding: 0.25rem;
         }
 
         .checked {
@@ -69,35 +121,9 @@
             color: #f2f2f2;
         }
 
-        .row.display-flex {
-            display: flex;
-            flex-wrap: wrap;
-        }
-        .row.display-flex > [class*='col-'] {
-            display: flex;
-            flex-direction: column;
-        }
-
         /* fin blocks gris */
 
         /* début img */
-
-        .crop img {
-            width: 400px;
-            height: 270px;
-            margin: -75px 0 0 -100px;
-        }
-
-        .crop {
-            width: 100%;
-            max-height: 110px;
-            overflow: hidden;
-        }
-
-        .rounded-top {
-            border-top-left-radius: .5rem!important;
-            border-top-right-radius: .5rem!important;
-        }
 
         .rounded-left {
             border-top-left-radius: .5rem!important;
@@ -107,17 +133,57 @@
         /* fin img */
 
         /* début personnalisation navbar reservia PAS FINI */
+
+        .navbar{
+            position:relative;
+            display:flex;
+            flex-wrap:wrap;
+            align-items:center;
+            justify-content:space-between;
+            padding:.5rem 1rem
+        }
+
+        .navbar-brand {
+            display:inline-block;
+            padding-top:.3125rem;
+            padding-bottom:.3125rem;
+            margin-right:1rem;
+            font-size:1.25rem;
+            line-height:inherit;
+            white-space:nowrap
+        }
+
+        .navbar-nav {
+            display:-ms-flexbox;
+            display:flex;
+            flex-direction:row;
+            padding:0;
+            margin:0;
+            list-style:none
+        }
+
+
         .bg-light{
-            background-color:#ffffff!important
+            background-color:#ffffff;
         }
 
         ul.navbar-nav a:hover {
-            color: #0d6efd !important;
+            color: #0d6efd;
         }
 
         a.nav-active {
-            color: #0d6efd !important;
+            color: #0d6efd;
         }
+
+        .border-nav:hover {
+            border-top: 2px solid #0d6efd;
+        }
+
+        .border-nav {
+            border-top: 2px solid transparent;
+        }
+
+
         /* fin personnalisation navbar reservia */
 
     </style>
@@ -125,27 +191,21 @@
 <body>
 <!--début barre de navigation-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light"  style="background-color: #ffffff;">
-    <div class="d-flex flex-grow-1">
-        <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+    <div>
         <a class="navbar-brand" href="#">
-            <img src="/Users/adelinereaux/PhpstormProjects/untitled/img/reservia-logo.png" width="100" height="auto" class="d-inline-block align-top" alt="">
+            <img src="https://lestichats.fr/wp-content/uploads/2020/11/reservia-logo.png" width="100px" height="auto" alt="">
         </a>
-        <div class="w-100 text-right">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
     </div>
-    <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
-        <ul class="navbar-nav ml-auto flex-nowrap">
-            <li class="nav-item">
-                <a href="#" class="nav-link m-2 menu-item nav-active">H&eacute;bergements</a>
+    <div>
+        <ul class="navbar-nav">
+            <li class="nav-item border-nav">
+                <a href="#" class="nav-link nav-active">H&eacute;bergements</a>
             </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link m-2 menu-item">Activit&eacute;s</a>
+            <li class="nav-item border-nav">
+                <a href="#" class="nav-link">Activit&eacute;s</a>
             </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link m-2 menu-item" style="font-weight: 700; color: #0d6efd;">S'inscrire</a>
+            <li class="nav-item border-nav">
+                <a href="#" class="nav-link" style="font-weight: 700; color: #0d6efd;">S'inscrire</a>
             </li>
         </ul>
     </div>
@@ -156,160 +216,149 @@
         <h3>Trouvez votre h&eacute;bergement pour des vacances de r&ecirc;ve</h3>
         <p>En plein centre ville ou en pleine nature</p>
     </div>
-    <div class="row justify-content-between">
-        <div class="col-md-8 col-12">
-            <div class="container-1">
-                <h3>H&eacute;bergements &agrave; Marseille</h3>
-                <div class="container">
-                    <div class="row display-flex">
-                        <div class="col-12 col-md-4 ">
-                            <div class="card shadow p-3 mb-5 bg-white rounded cartes-hotel">
-                                <img class="rounded-top crop" src="/Users/adelinereaux/PhpstormProjects/untitled/img/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                                     height="auto" width="100%"/>
-                                <div class="card-body">
-                                    <h5 class="card-title">Auberge La Cannebière</h5>
-                                    <p class="card-text">Nuit à partir de <b>25€</b></p>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star unchecked"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4 ">
-                            <div class="card shadow p-3 mb-5 bg-white rounded cartes-hotel">
-                                <img class="rounded-top crop" src="/Users/adelinereaux/PhpstormProjects/untitled/img/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
-                                     height="auto" width="100%"/>
-                                <div class="card-body">
-                                    <h5 class="card-title">H&ocirc;tel du Port</h5>
-                                    <p class="card-text">Nuit à partir de <b>52€</b></p>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4 ">
-                            <div class="card shadow p-3 mb-5 bg-white rounded cartes-hotel">
-                                <img class="rounded-top crop" src="/Users/adelinereaux/PhpstormProjects/untitled/img/reisetopia-B8WIgxA_PFU-unsplash.jpg"
-                                     height="auto" width="100%"/>
-                                <div class="card-body">
-                                    <h5 class="card-title">H&ocirc;tel Les Mouettes</h5>
-                                    <p class="card-text">Nuit à partir de <b>76€</b></p>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star unchecked"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4 ">
-                            <div class="card shadow p-3 mb-5 bg-white rounded cartes-hotel">
-                                <img class="rounded-top crop" src="/Users/adelinereaux/PhpstormProjects/untitled/img/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
-                                     height="auto" width="100%"/>
-                                <div class="card-body">
-                                    <h5 class="card-title">H&ocirc;tel de la Mer</h5>
-                                    <p class="card-text">Nuit à partir de <b>46€</b></p>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star unchecked"></span>
-                                    <span class="fa fa-star unchecked"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4 ">
-                            <div class="card shadow p-3 mb-5 bg-white rounded cartes-hotel">
-                                <img class="rounded-top crop" src="../../../../../PhpstormProjects/untitled/img/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
-                                     height="auto" width="100%"/>
-                                <div class="card-body">
-                                    <h5 class="card-title">Auberge Le Panier</h5>
-                                    <p class="card-text">Nuit à partir de <b>23€</b></p>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star unchecked"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4 ">
-                            <div class="card shadow p-3 mb-5 bg-white rounded cartes-hotel">
-                                <img class="rounded-top crop" src="/Users/adelinereaux/PhpstormProjects/untitled/img/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
-                                     height="auto" width="100%"/>
-                                <div class="card-body">
-                                    <h5 class="card-title">H&ocirc;tel chez Amina</h5>
-                                    <p class="card-text">Nuit à partir de <b>96€</b></p>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                </div>
+    <div class="container-1">
+        <div class="bloc-1">
+            <div class="bloc">
+                <h3>H&eacutebergements &agrave; Marseille</h3>
+                <div class="container-1">
+                    <div class="container-2">
+                        <div class="cartes-hotel">
+                            <img class="img-hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/marcus-loke-WQJvWU_HZFo-unsplash.jpg"/>
+                            <div class="carte-corps">
+                                <h5 class="carte-titre">Auberge La Cannebi&egrave;re</h5>
+                                <p class="petit">Nuit &agrave; partir de <b>25&euro;</b></p>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star unchecked"></span>
                             </div>
                         </div>
                     </div>
-
+                    <div class="container-2">
+                        <div class="cartes-hotel">
+                            <img class="img-hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                                 height="auto" width="100%"/>
+                            <div class="carte-corps">
+                                <h5 class="carte-titre">H&ocirc;tel du Port</h5>
+                                <p class="petit">Nuit &agrave; partir de <b>52&euro;</b></p>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-2">
+                        <div class="cartes-hotel">
+                            <img class="img-hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                                 height="auto" width="100%"/>
+                            <div class="carte-corps">
+                                <h5 class="carte-titre">H&ocirc;tel Les Mouettes</h5>
+                                <p class="petit">Nuit &agrave; partir de <b>76&euro;</b></p>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-1">
+                    <div class="container-2">
+                        <div class="cartes-hotel">
+                            <img class="img-hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                                 height="auto" width="100%"/>
+                            <div class="carte-corps">
+                                <h5 class="carte-titre">H&ocirc;tel de la Mer</h5>
+                                <p class="petit">Nuit &agrave; partir de <b>46&euro;</b></p>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-2">
+                        <div class="cartes-hotel">
+                            <img class="img-hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                                 height="auto" width="100%"/>
+                            <div class="carte-corps">
+                                <h5 class="carte-titre">Auberge Le Panier</h5>
+                                <p class="petit">Nuit &agrave; partir de <b>23&euro;</b></p>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-2">
+                        <div class="cartes-hotel">
+                            <img class="img-hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                                 height="auto" width="100%"/>
+                            <div class="carte-corps">
+                                <h5 class="carte-titre">H&ocirc;tel chez Amina</h5>
+                                <p class="petit">Nuit &agrave; partir de <b>96&euro;</b></p>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-4 col-12">
-            <div class="container-1">
+        <div class="bloc-2">
+            <div class="bloc">
                 <h3>Les plus populaires</h3>
-
-                <div class="container">
-                    <div class="row justify-content-between">
-                        <div class="col-12">
-                            <div class="card flex-row shadow p-3 mb-5 bg-white rounded cartes-hotel">
-                                <img class="rounded-left pull-left" src="/Users/adelinereaux/PhpstormProjects/untitled/img/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                                     height="auto" width="40%" style="max-height: 100px;"/>
-                                <div class="card-body px-2">
-                                    <h5 class="card-title">H&ocirc;tel Le soleil du matin</h5>
-                                    <p class="card-text">Nuit à partir de 128€</p>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="card flex-row shadow p-3 mb-5 bg-white rounded cartes-hotel">
-                                <img class="rounded-left pull-left" src="/Users/adelinereaux/PhpstormProjects/untitled/img/aw-creative-VGs8z60yT2c-unsplash.jpg"
-                                     height="auto" width="40%" style="max-height: 100px;"/>
-                                <div class="card-body px-2">
-                                    <h5 class="card-title">Au c&oelig;ur de l'eau Chambres d'hôtes</h5>
-                                    <p class="card-text">Nuit à partir de 71€</p>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star unchecked"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="card flex-row shadow p-3 mb-5 bg-white rounded cartes-hotel">
-                                <img class="rounded-left pull-left" src="/Users/adelinereaux/PhpstormProjects/untitled/img/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-                                     height="auto" width="40%" style="max-height: 100px;"/>
-                                <div class="card-body px-2">
-                                    <h5 class="card-title">H&ocirc;tel Tout Bleu et Blanc</h5>
-                                    <p class="card-text">Nuit à partir de 68€</p>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star unchecked"></span>
-                                </div>
-                            </div>
+                <div class="container-2">
+                    <div class="cartes-hotel populaire">
+                        <img class="img-gauche" src="https://lestichats.fr/wp-content/uploads/2020/11/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" />
+                        <div class="carte-corps">
+                            <h5 class="carte-titre">H&ocirc;tel Le soleil du matin</h5>
+                            <p class="petit">Nuit &agrave; partir de 128&euro;</p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
                         </div>
                     </div>
-
+                </div>
+                <div class="container-2">
+                    <div class="cartes-hotel populaire">
+                        <img class="img-gauche" src="https://lestichats.fr/wp-content/uploads/2020/11/aw-creative-VGs8z60yT2c-unsplash.jpg" />
+                        <div class="carte-corps">
+                            <h5 class="carte-titre">Au c&oelig;ur de l'eau Chambres d'h&ocirc;tes</h5>
+                            <p class="petit">Nuit &agrave; partir de 71&euro;</p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star unchecked"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-2">
+                    <div class="cartes-hotel populaire">
+                        <img class="img-gauche" src="https://lestichats.fr/wp-content/uploads/2020/11/febrian-zakaria-sjvU0THccQA-unsplash.jpg" />
+                        <div class="carte-corps">
+                            <h5 class="carte-titre">H&ocirc;tel Tout Bleu et Blanc</h5>
+                            <p class="petit">Nuit &agrave; partir de 68&euro;</p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star unchecked"></span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -318,23 +367,5 @@
         <h3>Activit&eacute;s &agrave; Marseille</h3>
     </div>
 </div>
-<script>
-    window.onscroll = function() {myFunction()};
-
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-
-    function myFunction() {
-        if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-        } else {
-            navbar.classList.remove("sticky");
-        }
-    }
-</script>
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
