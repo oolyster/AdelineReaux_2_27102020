@@ -19,12 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4ad6a8b-e20e-4c58-a69d-693e17c5047f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/reservia.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="c4ad6a8b-e20e-4c58-a69d-693e17c5047f" name="Default Changelist" comment="Add files via upload">
+      <change beforePath="$PROJECT_DIR$/annie-spratt-Eg1qcIitAuA-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/annie-spratt-Eg1qcIitAuA-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aw-creative-VGs8z60yT2c-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/aw-creative-VGs8z60yT2c-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/febrian-zakaria-sjvU0THccQA-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/febrian-zakaria-sjvU0THccQA-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fred-kleber-gTbaxaVLvsg-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fred-kleber-gTbaxaVLvsg-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marcus-loke-WQJvWU_HZFo-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/marcus-loke-WQJvWU_HZFo-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reisetopia-B8WIgxA_PFU-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/reisetopia-B8WIgxA_PFU-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservia-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/reservia-logo.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +86,23 @@
       <option name="presentableId" value="Default" />
       <updated>1605183067030</updated>
       <workItem from="1605183069156" duration="7075000" />
-      <workItem from="1605636671857" duration="7200000" />
+      <workItem from="1605636671857" duration="7496000" />
     </task>
+    <task id="LOCAL-00001" summary="Add files via upload">
+      <created>1605647764088</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605647764088</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add files via upload">
+      <created>1605647798480</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605647798480</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +122,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="from scratch" />
+    <MESSAGE value="Reload from scratch" />
     <MESSAGE value="Add files via upload" />
     <option name="LAST_COMMIT_MESSAGE" value="Add files via upload" />
   </component>
@@ -118,10 +139,10 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="506" y="295" key="Github.ShareDialog/0.23.1280.777@0.23.1280.777" timestamp="1605201635539" />
-    <state x="230" y="131" key="Vcs.Push.Dialog.v2" timestamp="1605647719114">
+    <state x="230" y="131" key="Vcs.Push.Dialog.v2" timestamp="1605647812948">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="230" y="131" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1605647719114" />
+    <state x="230" y="131" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1605647812948" />
     <state x="431" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605201706513">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
