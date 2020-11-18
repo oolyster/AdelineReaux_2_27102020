@@ -33,6 +33,7 @@
 
         .container-1 {
             display: flex;
+            flex-wrap: wrap;
         }
 
         .container-2 {
@@ -63,14 +64,19 @@
         .bloc-2 {
             flex: 2;
             display: flex;
+            max-width: 35%;
         }
 
-        .box {
-            display: flex;
-            flex-wrap: wrap;
+        .wrap-2 {
+            flex: 1 0 48%;
         }
-        .box>* {
-            flex: 1 1 160px;
+
+        .wrap-3 {
+            flex: 1 0 32%;
+        }
+
+        .wrap-4 {
+            flex: 1 0 21%;
         }
 
         .ombre {
@@ -113,6 +119,22 @@
             border-top-left-radius:0.5rem;
             border-bottom-left-radius:0.5rem;
             width: 50%;
+            height: 110px;
+            object-fit: cover;
+        }
+
+        .img-visites-1 {
+            border-top-left-radius:0.5rem;
+            border-top-right-radius:0.5rem;
+            width: 100%;
+            height: 210px;
+            object-fit: cover;
+        }
+
+        .img-visites-2 {
+            border-top-left-radius:0.5rem;
+            border-top-right-radius:0.5rem;
+            width: 100%;
             height: 110px;
             object-fit: cover;
         }
@@ -242,7 +264,7 @@
             <div class="bloc">
                 <h3>H&eacutebergements &agrave; Marseille</h3>
                 <div class="container-1">
-                    <div class="container-2 ombre">
+                    <div class="container-2 ombre wrap-3">
                         <div class="cartes-hotel">
                             <img class="img-hotel" alt="Hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/marcus-loke-WQJvWU_HZFo-unsplash.jpg"/>
                             <div class="carte-corps">
@@ -256,7 +278,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container-2 ombre">
+                    <div class="container-2 ombre wrap-3">
                         <div class="cartes-hotel">
                             <img class="img-hotel" alt="Hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
                                  height="auto" width="100%"/>
@@ -271,7 +293,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container-2 ombre">
+                    <div class="container-2 ombre wrap-3">
                         <div class="cartes-hotel">
                             <img class="img-hotel" alt="Hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/reisetopia-B8WIgxA_PFU-unsplash.jpg"
                                  height="auto" width="100%"/>
@@ -286,9 +308,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="container-1">
-                    <div class="container-2 ombre">
+                    <div class="container-2 ombre wrap-3">
                         <div class="cartes-hotel">
                             <img class="img-hotel" alt="Hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
                                  height="auto" width="100%"/>
@@ -303,7 +323,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container-2 ombre">
+                    <div class="container-2 ombre wrap-3">
                         <div class="cartes-hotel">
                             <img class="img-hotel" alt="Hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
                                  height="auto" width="100%"/>
@@ -318,7 +338,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container-2 ombre">
+                    <div class="container-2 ombre wrap-3">
                         <div class="cartes-hotel">
                             <img class="img-hotel" alt="Hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                                  height="auto" width="100%"/>
@@ -388,82 +408,46 @@
         <div class="bloc-1">
             <div class="bloc-blanc">
                 <h3>Activit&eacute;s &agrave; Marseille</h3>
-                <div class="container-1 box">
-                    <div class="container-2 ombre cartes-hotel">
-                            <img class="img-hotel" alt="Hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/marcus-loke-WQJvWU_HZFo-unsplash.jpg"/>
+                <div class="container-1">
+                    <div class="container-2 ombre cartes-hotel wrap-4">
+                            <img class="img-visites-1" alt="Visite" src="https://lestichats.fr/wp-content/uploads/2020/11/marcus-loke-WQJvWU_HZFo-unsplash.jpg"/>
                             <div class="carte-corps">
-                                <h5 class="carte-titre">Auberge La Cannebi&egrave;re</h5>
-                                <p class="petit">Nuit &agrave; partir de <b>25&euro;</b></p>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star unchecked"></span>
+                                <h5 class="carte-titre">Vieux Port</h5>
                             </div>
                     </div>
-                    <div class="container-2 ombre cartes-hotel">
-                            <img class="img-hotel" alt="Hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                    <div class="container-2 ombre cartes-hotel wrap-4">
+                            <img class="img-visites-2" alt="Visites" src="https://lestichats.fr/wp-content/uploads/2020/11/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
                                  height="auto" width="100%"/>
                             <div class="carte-corps">
-                                <h5 class="carte-titre">H&ocirc;tel du Port</h5>
-                                <p class="petit">Nuit &agrave; partir de <b>52&euro;</b></p>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
+                                <h5 class="carte-titre">Fort de Pom&egrave;gues</h5>
                             </div>
                     </div>
-                    <div class="container-2 ombre cartes-hotel">
-                            <img class="img-hotel" alt="Hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                    <div class="container-2 ombre cartes-hotel wrap-4">
+                            <img class="img-visites-2" alt="Visites" src="https://lestichats.fr/wp-content/uploads/2020/11/reisetopia-B8WIgxA_PFU-unsplash.jpg"
                                  height="auto" width="100%"/>
                             <div class="carte-corps">
-                                <h5 class="carte-titre">H&ocirc;tel Les Mouettes</h5>
-                                <p class="petit">Nuit &agrave; partir de <b>76&euro;</b></p>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star unchecked"></span>
+                                <h5 class="carte-titre">&Icirc;les du Frioul</h5>
                             </div>
                     </div>
-                    <div class="container-2 ombre cartes-hotel">
-                            <img class="img-hotel" alt="Hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                    <div class="container-2 ombre cartes-hotel wrap-4">
+                            <img class="img-visites-1" alt="Visites" src="https://lestichats.fr/wp-content/uploads/2020/11/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
                                  height="auto" width="100%"/>
                             <div class="carte-corps">
-                                <h5 class="carte-titre">H&ocirc;tel de la Mer</h5>
-                                <p class="petit">Nuit &agrave; partir de <b>46&euro;</b></p>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star unchecked"></span>
-                                <span class="fa fa-star unchecked"></span>
+                                <h5 class="carte-titre">Parc National des Calanques</h5>
                             </div>
                     </div>
-                    <div class="container-2 ombre cartes-hotel">
-                            <img class="img-hotel" alt="Hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                    <div class="container-2 ombre cartes-hotel wrap-4">
+                            <img class="img-visites-2" alt="Visites" src="https://lestichats.fr/wp-content/uploads/2020/11/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
                                  height="auto" width="100%"/>
                             <div class="carte-corps">
-                                <h5 class="carte-titre">Auberge Le Panier</h5>
-                                <p class="petit">Nuit &agrave; partir de <b>23&euro;</b></p>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star unchecked"></span>
+                                <h5 class="carte-titre">Notre-Dame-de-la-Garde</h5>
                             </div>
                     </div>
-                    <div class="container-2 ombre cartes-hotel">
-                            <img class="img-hotel" alt="Hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                    <div class="container-2 ombre cartes-hotel wrap-4">
+                            <img class="img-visites-2" alt="Visites" src="https://lestichats.fr/wp-content/uploads/2020/11/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                                  height="auto" width="100%"/>
                             <div class="carte-corps">
-                                <h5 class="carte-titre">H&ocirc;tel chez Amina</h5>
-                                <p class="petit">Nuit &agrave; partir de <b>96&euro;</b></p>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
+                                <h5 class="carte-titre">Parc Longchamp</h5>
                             </div>
                     </div>
                 </div>
