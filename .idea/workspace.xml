@@ -16,20 +16,19 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/visites-suggerees" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4ad6a8b-e20e-4c58-a69d-693e17c5047f" name="Default Changelist" comment="Add files via upload">
-      <change beforePath="$PROJECT_DIR$/annie-spratt-Eg1qcIitAuA-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/annie-spratt-Eg1qcIitAuA-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aw-creative-VGs8z60yT2c-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/aw-creative-VGs8z60yT2c-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/febrian-zakaria-sjvU0THccQA-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/febrian-zakaria-sjvU0THccQA-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fred-kleber-gTbaxaVLvsg-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fred-kleber-gTbaxaVLvsg-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marcus-loke-WQJvWU_HZFo-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/marcus-loke-WQJvWU_HZFo-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reisetopia-B8WIgxA_PFU-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/reisetopia-B8WIgxA_PFU-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservia-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/reservia-logo.png" afterDir="false" />
+    <list default="true" id="c4ad6a8b-e20e-4c58-a69d-693e17c5047f" name="Default Changelist" comment="test images">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,11 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="visites-suggerees" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kBntXMQpYdrhy0XDTdkflcuLhF" />
@@ -74,6 +78,11 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -86,7 +95,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605183067030</updated>
       <workItem from="1605183069156" duration="7075000" />
-      <workItem from="1605636671857" duration="7496000" />
+      <workItem from="1605636671857" duration="8207000" />
+      <workItem from="1605687464219" duration="11063000" />
     </task>
     <task id="LOCAL-00001" summary="Add files via upload">
       <created>1605647764088</created>
@@ -102,7 +112,42 @@
       <option name="project" value="LOCAL" />
       <updated>1605647798480</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test images">
+      <created>1605648193087</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605648193087</updated>
+    </task>
+    <task id="LOCAL-00004" summary="version 1">
+      <created>1605690696138</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605690696138</updated>
+    </task>
+    <task id="LOCAL-00005" summary="version 2">
+      <created>1605692743860</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605692743860</updated>
+    </task>
+    <task id="LOCAL-00006" summary="version 3">
+      <created>1605790780596</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605790780596</updated>
+    </task>
+    <task id="LOCAL-00007" summary="version 4 + barre de recherche">
+      <created>1605808153363</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605808153363</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +158,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/visites-suggerees" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -124,7 +181,12 @@
     <MESSAGE value="from scratch" />
     <MESSAGE value="Reload from scratch" />
     <MESSAGE value="Add files via upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add files via upload" />
+    <MESSAGE value="test images" />
+    <MESSAGE value="version 1" />
+    <MESSAGE value="version 2" />
+    <MESSAGE value="version 3" />
+    <MESSAGE value="version 4 + barre de recherche" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 4 + barre de recherche" />
   </component>
   <component name="WindowStateProjectService">
     <state x="94" y="53" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605647699821">
@@ -139,14 +201,18 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="506" y="295" key="Github.ShareDialog/0.23.1280.777@0.23.1280.777" timestamp="1605201635539" />
-    <state x="230" y="131" key="Vcs.Push.Dialog.v2" timestamp="1605647812948">
+    <state x="124" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605808154990">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="230" y="131" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1605647812948" />
+    <state x="124" y="97" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1605808154990" />
     <state x="431" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605201706513">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="431" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.777@0.23.1280.777" timestamp="1605201706513" />
+    <state x="295" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1605692328330">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="295" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1605692328330" />
     <state x="425" y="293" key="svn.passwordDialog" timestamp="1605201579179">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
