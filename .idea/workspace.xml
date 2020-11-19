@@ -19,17 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4ad6a8b-e20e-4c58-a69d-693e17c5047f" name="Default Changelist" comment="Add files via upload">
-      <change beforePath="$PROJECT_DIR$/annie-spratt-Eg1qcIitAuA-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/annie-spratt-Eg1qcIitAuA-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aw-creative-VGs8z60yT2c-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/aw-creative-VGs8z60yT2c-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/febrian-zakaria-sjvU0THccQA-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/febrian-zakaria-sjvU0THccQA-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fred-kleber-gTbaxaVLvsg-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fred-kleber-gTbaxaVLvsg-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marcus-loke-WQJvWU_HZFo-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/marcus-loke-WQJvWU_HZFo-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reisetopia-B8WIgxA_PFU-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/reisetopia-B8WIgxA_PFU-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservia-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/reservia-logo.png" afterDir="false" />
+    <list default="true" id="c4ad6a8b-e20e-4c58-a69d-693e17c5047f" name="Default Changelist" comment="test images">
+      <change afterPath="$PROJECT_DIR$/img/florian-wehde-xW9e8gdotxI-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/lena-paulin-wH2-EJoDcV0-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/paul-hermann-QFTrLdQIRhI-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +73,11 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -86,7 +90,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605183067030</updated>
       <workItem from="1605183069156" duration="7075000" />
-      <workItem from="1605636671857" duration="7496000" />
+      <workItem from="1605636671857" duration="8207000" />
+      <workItem from="1605687464219" duration="4939000" />
     </task>
     <task id="LOCAL-00001" summary="Add files via upload">
       <created>1605647764088</created>
@@ -102,7 +107,28 @@
       <option name="project" value="LOCAL" />
       <updated>1605647798480</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test images">
+      <created>1605648193087</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605648193087</updated>
+    </task>
+    <task id="LOCAL-00004" summary="version 1">
+      <created>1605690696138</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605690696138</updated>
+    </task>
+    <task id="LOCAL-00005" summary="version 2">
+      <created>1605692743860</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605692743860</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +150,10 @@
     <MESSAGE value="from scratch" />
     <MESSAGE value="Reload from scratch" />
     <MESSAGE value="Add files via upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add files via upload" />
+    <MESSAGE value="test images" />
+    <MESSAGE value="version 1" />
+    <MESSAGE value="version 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="94" y="53" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605647699821">
@@ -139,14 +168,18 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="506" y="295" key="Github.ShareDialog/0.23.1280.777@0.23.1280.777" timestamp="1605201635539" />
-    <state x="230" y="131" key="Vcs.Push.Dialog.v2" timestamp="1605647812948">
+    <state x="124" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605692748419">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="230" y="131" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1605647812948" />
+    <state x="124" y="97" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1605692748419" />
     <state x="431" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605201706513">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="431" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.777@0.23.1280.777" timestamp="1605201706513" />
+    <state x="295" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1605692328330">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="295" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1605692328330" />
     <state x="425" y="293" key="svn.passwordDialog" timestamp="1605201579179">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
