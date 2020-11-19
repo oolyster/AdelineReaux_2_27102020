@@ -16,18 +16,18 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/visites-suggerees" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4ad6a8b-e20e-4c58-a69d-693e17c5047f" name="Default Changelist" comment="test images">
-      <change afterPath="$PROJECT_DIR$/img/florian-wehde-xW9e8gdotxI-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/lena-paulin-wH2-EJoDcV0-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/paul-hermann-QFTrLdQIRhI-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +52,11 @@
         <option name="argument" value="--tags" />
         <option name="title" value="All" />
       </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="visites-suggerees" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -91,7 +96,7 @@
       <updated>1605183067030</updated>
       <workItem from="1605183069156" duration="7075000" />
       <workItem from="1605636671857" duration="8207000" />
-      <workItem from="1605687464219" duration="4939000" />
+      <workItem from="1605687464219" duration="9850000" />
     </task>
     <task id="LOCAL-00001" summary="Add files via upload">
       <created>1605647764088</created>
@@ -128,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605692743860</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="version 3">
+      <created>1605790780596</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605790780596</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +151,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/visites-suggerees" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -153,7 +177,8 @@
     <MESSAGE value="test images" />
     <MESSAGE value="version 1" />
     <MESSAGE value="version 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 2" />
+    <MESSAGE value="version 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="94" y="53" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605647699821">
@@ -168,10 +193,10 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="506" y="295" key="Github.ShareDialog/0.23.1280.777@0.23.1280.777" timestamp="1605201635539" />
-    <state x="124" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605692748419">
+    <state x="124" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605791623036">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="124" y="97" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1605692748419" />
+    <state x="124" y="97" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1605791623036" />
     <state x="431" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605201706513">
       <screen x="0" y="23" width="1280" height="777" />
     </state>

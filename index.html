@@ -28,7 +28,6 @@
             background-color: #ffffff;
         }
 
-
         /* début blocks gris */
 
         .container-1 {
@@ -228,6 +227,56 @@
 
         /* fin personnalisation navbar reservia */
 
+        /* search box */
+
+        .button_box2 {
+            margin:10px 20px;
+        }
+
+        .cf:before, .cf:after{
+            content:"";
+            display:table;
+        }
+        .cf:after{
+            clear:both;
+        }
+        .cf{
+            zoom:1;
+        }
+
+        .form-wrapper-2 {
+            width: 330px;
+            padding: 2px;
+            border: 1px solid #f2f2f2;
+            border-radius: 0.5rem;
+        }
+        .form-wrapper-2 input {
+            width: 210px;
+            height: 20px;
+            padding: 10px 5px;
+            float: left;
+            font: bold 15px 'Raleway', sans-serif;
+            border: 0;
+            background: #ffffff;
+            border-radius: 0.5rem 0 0 0.5rem;
+        }
+        .form-wrapper-2 button {
+            overflow: visible;
+            position: relative;
+            float: right;
+            border: 0;
+            padding: 0;
+            cursor: pointer;
+            height: 40px;
+            width: 110px;
+            font-family: 'Raleway', Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 15px;
+            color: #ffffff;
+            background: #0d6efd;
+            border-radius: 0 0.5rem 0.5rem 0;
+        }
+
     </style>
 </head>
 <body>
@@ -261,6 +310,16 @@
                 <p>En plein centre ville ou en pleine nature</p>
             </div>
         </div>
+    </div>
+    <div class="container-1">
+    <div class="bloc-1">
+        <div class="button_box2">
+            <form class="form-wrapper-2 cf">
+                <input type="text" placeholder="Marseille">
+                <button type="submit">Rechercher</button>
+            </form>
+        </div>
+    </div>
     </div>
     <div class="container-1">
         <div class="bloc-1">
