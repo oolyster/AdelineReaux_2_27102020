@@ -115,10 +115,14 @@ a {
     max-height: 161px;
 }
 
+.cartes-hotel.grand {
+    height: 100%;
+}
+
 .carte-corps {
     flex:1 1 auto;
     min-height:1px;
-    padding:1.25rem
+    padding:0.5rem
 }
 
 .carte-titre {
@@ -174,11 +178,12 @@ p.petit {
     font-size: 0.8em;
     line-height: 0.5em;
 }
-
+/*étoile pleine*/
 .checked {
     color: #0d6efd;
 }
 
+/*étoile vide*/
 .unchecked {
     color: #f2f2f2;
 }
