@@ -1,0 +1,295 @@
+html {
+    font-family:'Raleway', Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-size: 1em;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+h3{
+    color: #000000;
+    font-size: 1.2em;
+    font-weight: 700;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*sections*/
+.container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+
+/*encadré gris*/
+.container-2 {
+    background: #f2f2f2;
+    padding: 20px;
+    margin: 10px;
+    border-radius: .5rem;
+}
+
+/*cartes*/
+.container-3 {
+    flex: 1;
+    margin:5px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*container cartes activités*/
+.container-4 {
+    height: 295px;
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+
+/*encadré gris*/
+.container-5 {
+    background: #ffffff;
+    padding: 20px;
+}
+
+/*container cartes hotel*/
+.container-6 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+
+/*deux tiers de page*/
+.bloc-1 {
+    flex: 4;
+    display: flex;
+}
+
+/*un tiers de page*/
+.bloc-2 {
+    flex: 2;
+    display: flex;
+    max-width: 35%;
+}
+
+.wrap-1 {
+    flex: 1 0 95%;
+}
+
+.wrap-2 {
+    flex: 1 0 48%;
+}
+
+.wrap-3 {
+    flex: 1 0 32%;
+}
+
+.wrap-4 {
+    flex: 1 0 21%;
+}
+
+.ombre {
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0,0,0,.15);
+    border-radius: 0.5rem;
+}
+
+.cartes-hotel {
+    padding:0.5rem;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    min-width:0;
+    word-wrap:break-word;
+    background-color:#ffffff;
+    background-clip:border-box;
+    border:1px solid rgba(0,0,0,.125);
+    border-radius:0.5rem;
+}
+
+.cartes-hotel.petit {
+    max-height: 161px;
+}
+
+.cartes-hotel.grand {
+    height: 100%;
+}
+
+.carte-corps {
+    flex:1 1 auto;
+    min-height:1px;
+    padding:0.5rem
+}
+
+.carte-titre {
+    margin: 0
+}
+
+.img-hotel {
+    border-top-left-radius:0.5rem;
+    border-top-right-radius:0.5rem;
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+}
+
+.img-gauche {
+    border-top-left-radius:0.5rem;
+    border-bottom-left-radius:0.5rem;
+    width: 50%;
+    height: 110px;
+    object-fit: cover;
+}
+
+.img-visites-1 {
+    border-top-left-radius:0.5rem;
+    border-top-right-radius:0.5rem;
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+.img-visites-2 {
+    border-top-left-radius:0.5rem;
+    border-top-right-radius:0.5rem;
+    width: 100%;
+    height: 88px;
+    object-fit: cover;
+}
+
+.populaire {
+    display: flex;
+    flex-direction: row;
+}
+
+h5 {
+    color: #000000;
+    font-size: 0.9em;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+p.petit {
+    font-size: 0.8em;
+    line-height: 0.5em;
+}
+/*étoile pleine*/
+.checked {
+    color: #0d6efd;
+}
+
+/*étoile vide*/
+.unchecked {
+    color: #f2f2f2;
+}
+
+/* fin blocks gris */
+
+/* début personnalisation navbar reservia PAS FINI */
+
+.navbar{
+    position:relative;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-between;
+    padding:0.5rem 1rem
+}
+
+.navbar-brand {
+    display:inline-block;
+    padding-top:.3125rem;
+    padding-bottom:.3125rem;
+    margin-right:1rem;
+    font-size:1.25rem;
+    line-height:inherit;
+    white-space:nowrap
+}
+
+.navbar-nav {
+    display:flex;
+    flex-direction:row;
+    padding:0;
+    margin:0;
+    list-style:none;
+    height:80px;
+}
+
+.bg-light{
+    background-color:#ffffff;
+}
+
+ul.navbar-nav a:hover {
+    color: #0d6efd;
+}
+
+a.nav-active {
+    color: #0d6efd;
+}
+
+.border-nav:hover {
+    border-top: 2px solid #0d6efd;
+}
+
+.border-nav {
+    border-top: 2px solid transparent;
+    padding:10px 5px;
+}
+
+
+/* fin personnalisation navbar reservia */
+
+/* search box */
+
+.button_box2 {
+    margin:10px 20px;
+}
+
+.cf:before, .cf:after{
+    content:"";
+    display:table;
+}
+.cf:after{
+    clear:both;
+}
+.cf{
+    zoom:1;
+}
+
+.form-wrapper-2 {
+    width: 330px;
+    padding: 2px;
+    border: 1px solid #f2f2f2;
+    border-radius: 0.5rem;
+}
+.form-wrapper-2 input {
+    width: 210px;
+    height: 20px;
+    padding: 10px 5px;
+    float: left;
+    font: bold 15px 'Raleway', sans-serif;
+    border: 0;
+    background: #ffffff;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+.form-wrapper-2 button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 110px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ffffff;
+    background: #0d6efd;
+    border-radius: 0 0.5rem 0.5rem 0;
+}

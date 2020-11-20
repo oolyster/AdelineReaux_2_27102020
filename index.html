@@ -4,280 +4,8 @@
     <meta charset="utf-8">
     <title>Adeline Reaux P2 Reservia</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        body {
-            margin: 0;
-            font-size: 1em;
-            font-family: 'Raleway', Arial, Helvetica, sans-serif;
-        }
-
-        h3{
-            color: #000000;
-            font-size: 1.2em;
-            font-weight: 700;
-            font-style: normal;
-            font-family: 'Raleway', Arial, Helvetica, sans-serif;
-        }
-
-        a {
-            text-decoration: none;
-        }
-
-        .jumbotron {
-            background-color: #ffffff;
-        }
-
-        /* début blocks gris */
-        .container-1 {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .container-2 {
-            flex: 1;
-            margin:5px;
-            transition: transform .2s;
-        }
-
-        .bloc {
-            background: #f2f2f2;
-            padding: 20px;
-            margin: 10px;
-            border-radius: .5rem;
-        }
-
-        .bloc-blanc {
-            background: #ffffff;
-            padding: 20px;
-            margin: 10px;
-        }
-
-        .bloc-1 {
-            flex: 4;
-            display: flex;
-        }
-
-        .bloc-2 {
-            flex: 2;
-            display: flex;
-            max-width: 35%;
-        }
-
-        .wrap-2 {
-            flex: 1 0 48%;
-        }
-
-        .wrap-3 {
-            flex: 1 0 32%;
-        }
-
-        .wrap-4 {
-            flex: 1 0 21%;
-        }
-
-        .ombre {
-            box-shadow: 0.5rem 0.5rem 0.5rem rgba(0,0,0,.15);
-            border-radius: 0.5rem;
-        }
-
-        .cartes-hotel {
-            padding:0.5rem;
-            position:relative;
-            display:flex;
-            flex-direction:column;
-            min-width:0;
-            word-wrap:break-word;
-            background-color:#ffffff;
-            background-clip:border-box;
-            border:1px solid rgba(0,0,0,.125);
-            border-radius:0.5rem;
-        }
-
-        .carte-corps {
-            flex:1 1 auto;
-            min-height:1px;
-            padding:1.25rem
-        }
-
-        .carte-titre {
-        margin: 0
-        }
-
-        .img-hotel {
-            border-top-left-radius:0.5rem;
-            border-top-right-radius:0.5rem;
-            width: 100%;
-            height: 110px;
-            object-fit: cover;
-        }
-
-        .img-gauche {
-            border-top-left-radius:0.5rem;
-            border-bottom-left-radius:0.5rem;
-            width: 50%;
-            height: 110px;
-            object-fit: cover;
-        }
-
-        .img-visites-1 {
-            border-top-left-radius:0.5rem;
-            border-top-right-radius:0.5rem;
-            width: 100%;
-            height: 210px;
-            object-fit: cover;
-        }
-
-        .img-visites-2 {
-            border-top-left-radius:0.5rem;
-            border-top-right-radius:0.5rem;
-            width: 100%;
-            height: 110px;
-            object-fit: cover;
-        }
-
-        .populaire {
-            display: flex;
-            flex-direction: row;
-        }
-
-        h5 {
-            color: #000000;
-            font-size: 0.9em;
-            font-weight: 700;
-            font-style: normal;
-            font-family: 'Raleway', Arial, Helvetica, sans-serif;
-        }
-
-        p.petit {
-            font-size: 0.8em;
-            line-height: 0.5em;
-        }
-
-        .checked {
-            color: #0d6efd;
-        }
-
-        .unchecked {
-            color: #f2f2f2;
-        }
-
-        /* fin blocks gris */
-
-        /*zoom*/
-
-        .container-2:hover {
-            transform: scale(1.05);
-        }
-        /*zoom*/
-
-
-        /* début personnalisation navbar reservia PAS FINI */
-
-        .navbar{
-            position:relative;
-            display:flex;
-            flex-wrap:wrap;
-            align-items:center;
-            justify-content:space-between;
-            padding:0.5rem 1rem
-        }
-
-        .navbar-brand {
-            display:inline-block;
-            padding-top:.3125rem;
-            padding-bottom:.3125rem;
-            margin-right:1rem;
-            font-size:1.25rem;
-            line-height:inherit;
-            white-space:nowrap
-        }
-
-        .navbar-nav {
-            display:flex;
-            flex-direction:row;
-            padding:0;
-            margin:0;
-            list-style:none;
-            height:80px;
-        }
-
-
-        .bg-light{
-            background-color:#ffffff;
-        }
-
-        ul.navbar-nav a:hover {
-            color: #0d6efd;
-        }
-
-        a.nav-active {
-            color: #0d6efd;
-        }
-
-        .border-nav:hover {
-            border-top: 2px solid #0d6efd;
-        }
-
-        .border-nav {
-            border-top: 2px solid transparent;
-            padding:10px 5px;
-        }
-
-
-        /* fin personnalisation navbar reservia */
-
-        /* search box */
-
-        .button_box2 {
-            margin:10px 20px;
-        }
-
-        .cf:before, .cf:after{
-            content:"";
-            display:table;
-        }
-        .cf:after{
-            clear:both;
-        }
-        .cf{
-            zoom:1;
-        }
-
-        .form-wrapper-2 {
-            width: 330px;
-            padding: 2px;
-            border: 1px solid #f2f2f2;
-            border-radius: 0.5rem;
-        }
-        .form-wrapper-2 input {
-            width: 210px;
-            height: 20px;
-            padding: 10px 5px;
-            float: left;
-            font: bold 15px 'Raleway', sans-serif;
-            border: 0;
-            background: #ffffff;
-            border-radius: 0.5rem 0 0 0.5rem;
-        }
-        .form-wrapper-2 button {
-            overflow: visible;
-            position: relative;
-            float: right;
-            border: 0;
-            padding: 0;
-            cursor: pointer;
-            height: 40px;
-            width: 110px;
-            font-family: 'Raleway', Arial, Helvetica, sans-serif;
-            font-weight: bold;
-            font-size: 15px;
-            color: #ffffff;
-            background: #0d6efd;
-            border-radius: 0 0.5rem 0.5rem 0;
-        }
-
-    </style>
+    <link rel="stylesheet" href="css/reservia-ar.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
 <body>
 <!--début barre de navigation-->
@@ -304,114 +32,111 @@
 <!-- fin barre de navigation-->
 <div class="jumbotron">
     <div class="container-1">
-        <div class="bloc-1">
-            <div class="bloc-blanc">
+            <div class="container-5">
                 <h3>Trouvez votre h&eacute;bergement pour des vacances de r&ecirc;ve</h3>
                 <p>En plein centre ville ou en pleine nature</p>
             </div>
-        </div>
-    </div>
-    <div class="container-1">
-    <div class="bloc-1">
-        <div class="button_box2">
-            <form class="form-wrapper-2 cf">
-                <input type="text" placeholder="Marseille">
-                <button type="submit">Rechercher</button>
-            </form>
-        </div>
-    </div>
+            <div class="container-5">
+                <div class="button_box2">
+                    <form class="form-wrapper-2 cf">
+                        <i></i>
+                        <input type="text" placeholder="Ville" value="Marseille">
+                        <button type="submit">Rechercher</button>
+                    </form>
+                </div>
+            </div>
     </div>
     <div class="container-1">
         <div class="bloc-1">
-            <div class="bloc">
+            <div class="container-2">
                 <h3>H&eacutebergements &agrave; Marseille</h3>
-                <div class="container-1">
-                    <div class="container-2 ombre wrap-3">
+                <div class="container-6">
+                    <div class="container-3 ombre wrap-3">
                         <div class="cartes-hotel">
                             <img class="img-hotel" alt="Hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/marcus-loke-WQJvWU_HZFo-unsplash.jpg"/>
                             <div class="carte-corps">
                                 <h5 class="carte-titre">Auberge La Cannebi&egrave;re</h5>
                                 <p class="petit">Nuit &agrave; partir de <b>25&euro;</b></p>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star unchecked"></span>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star unchecked"></i>
                             </div>
                         </div>
                     </div>
-                    <div class="container-2 ombre wrap-3">
+                    <div class="container-3 ombre wrap-3">
                         <div class="cartes-hotel">
                             <img class="img-hotel" alt="Hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
                                  height="auto" width="100%"/>
                             <div class="carte-corps">
                                 <h5 class="carte-titre">H&ocirc;tel du Port</h5>
                                 <p class="petit">Nuit &agrave; partir de <b>52&euro;</b></p>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
                             </div>
                         </div>
                     </div>
-                    <div class="container-2 ombre wrap-3">
+                    <div class="container-3 ombre wrap-3">
                         <div class="cartes-hotel">
                             <img class="img-hotel" alt="Hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/reisetopia-B8WIgxA_PFU-unsplash.jpg"
                                  height="auto" width="100%"/>
                             <div class="carte-corps">
                                 <h5 class="carte-titre">H&ocirc;tel Les Mouettes</h5>
                                 <p class="petit">Nuit &agrave; partir de <b>76&euro;</b></p>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star unchecked"></span>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star unchecked"></i>
                             </div>
                         </div>
                     </div>
-                    <div class="container-2 ombre wrap-3">
+                    <div class="container-3 ombre wrap-3">
                         <div class="cartes-hotel">
                             <img class="img-hotel" alt="Hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
                                  height="auto" width="100%"/>
                             <div class="carte-corps">
                                 <h5 class="carte-titre">H&ocirc;tel de la Mer</h5>
                                 <p class="petit">Nuit &agrave; partir de <b>46&euro;</b></p>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star unchecked"></span>
-                                <span class="fa fa-star unchecked"></span>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star unchecked"></i>
+                                <i class="fa fa-star unchecked"></i>
                             </div>
                         </div>
                     </div>
-                    <div class="container-2 ombre wrap-3">
+                    <div class="container-3 ombre wrap-3">
                         <div class="cartes-hotel">
                             <img class="img-hotel" alt="Hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
                                  height="auto" width="100%"/>
                             <div class="carte-corps">
                                 <h5 class="carte-titre">Auberge Le Panier</h5>
                                 <p class="petit">Nuit &agrave; partir de <b>23&euro;</b></p>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star unchecked"></span>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star unchecked"></i>
                             </div>
                         </div>
                     </div>
-                    <div class="container-2 ombre wrap-3">
+                    <div class="container-3 ombre wrap-3">
                         <div class="cartes-hotel">
                             <img class="img-hotel" alt="Hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                                  height="auto" width="100%"/>
                             <div class="carte-corps">
                                 <h5 class="carte-titre">H&ocirc;tel chez Amina</h5>
                                 <p class="petit">Nuit &agrave; partir de <b>96&euro;</b></p>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
                             </div>
                         </div>
                     </div>
@@ -419,47 +144,47 @@
             </div>
         </div>
         <div class="bloc-2">
-            <div class="bloc">
+            <div class="container-2">
                 <h3>Les plus populaires</h3>
-                <div class="container-2 ombre">
+                <div class="container-3 ombre">
                     <div class="cartes-hotel populaire">
                         <img class="img-gauche" alt="Hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" />
                         <div class="carte-corps">
                             <h5 class="carte-titre">H&ocirc;tel Le soleil du matin</h5>
                             <p class="petit">Nuit &agrave; partir de 128&euro;</p>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
                         </div>
                     </div>
                 </div>
-                <div class="container-2 ombre">
+                <div class="container-3 ombre">
                     <div class="cartes-hotel populaire">
                         <img class="img-gauche" alt="Hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/aw-creative-VGs8z60yT2c-unsplash.jpg" />
                         <div class="carte-corps">
                             <h5 class="carte-titre">Au c&oelig;ur de l'eau Chambres d'h&ocirc;tes</h5>
                             <p class="petit">Nuit &agrave; partir de 71&euro;</p>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star unchecked"></span>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star unchecked"></i>
                         </div>
                     </div>
                 </div>
-                <div class="container-2 ombre">
+                <div class="container-3 ombre">
                     <div class="cartes-hotel populaire">
                         <img class="img-gauche" alt="Hotel" src="https://lestichats.fr/wp-content/uploads/2020/11/febrian-zakaria-sjvU0THccQA-unsplash.jpg" />
                         <div class="carte-corps">
                             <h5 class="carte-titre">H&ocirc;tel Tout Bleu et Blanc</h5>
                             <p class="petit">Nuit &agrave; partir de 68&euro;</p>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star unchecked"></span>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star unchecked"></i>
                         </div>
                     </div>
                 </div>
@@ -467,55 +192,71 @@
         </div>
     </div>
     <div class="container-1">
-        <div class="bloc-1">
-            <div class="bloc-blanc">
+            <div class="container-5">
                 <h3>Activit&eacute;s &agrave; Marseille</h3>
-                <div class="container-1">
-                    <div class="container-2 ombre cartes-hotel wrap-4">
-                            <img class="img-visites-1" alt="Visite" src="img/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"/>
-                            <div class="carte-corps">
-                                <h5 class="carte-titre">Vieux Port</h5>
-                            </div>
+                <div class="container-6">
+                    <div class="container-4">
+                      <div class="container-3">
+                          <div class="cartes-hotel grand ombre">
+                          <img class="img-visites-1" alt="Visite" src="img/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"/>
+                          <div class="carte-corps">
+                              <h5 class="carte-titre">Vieux Port</h5>
+                          </div>
+                          </div>
+                      </div>
                     </div>
-                    <div class="container-2 ombre cartes-hotel wrap-4">
-                            <img class="img-visites-2" alt="Visites" src="img/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
-                                 height="auto" width="100%"/>
-                            <div class="carte-corps">
-                                <h5 class="carte-titre">Fort de Pom&egrave;gues</h5>
-                            </div>
-                    </div>
-                    <div class="container-2 ombre cartes-hotel wrap-4">
-                            <img class="img-visites-2" alt="Visites" src="img/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
-                                 height="auto" width="100%"/>
+                    <div class="container-4">
+                       <div class="container-3 wrap-1">
+                           <div class="cartes-hotel petit ombre">
+                           <img class="img-visites-2" alt="Visites" src="img/paul-hermann-QFTrLdQIRhI-unsplash.jpg" height="auto" width="100%"/>
+                           <div class="carte-corps">
+                               <h5 class="carte-titre">Fort de Pom&egrave;gues</h5>
+                           </div>
+                           </div>
+                       </div>
+                        <div class="container-3 wrap-1">
+                            <div class="cartes-hotel petit ombre">
+                            <img class="img-visites-2" alt="Visites" src="img/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" height="auto" width="100%"/>
                             <div class="carte-corps">
                                 <h5 class="carte-titre">&Icirc;les du Frioul</h5>
                             </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="container-2 ombre cartes-hotel wrap-4">
+                <div class="container-4">
+                    <div class="container-3">
+                        <div class="cartes-hotel grand ombre">
                             <img class="img-visites-1" alt="Visites" src="img/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
                                  height="auto" width="100%"/>
                             <div class="carte-corps">
                                 <h5 class="carte-titre">Parc National des Calanques</h5>
                             </div>
+                        </div>
                     </div>
-                    <div class="container-2 ombre cartes-hotel wrap-4">
+                </div>
+                <div class="container-4">
+                    <div class="container-3 wrap-1">
+                        <div class="cartes-hotel petit ombre">
                             <img class="img-visites-2" alt="Visites" src="img/florian-wehde-xW9e8gdotxI-unsplash.jpg"
                                  height="auto" width="100%"/>
                             <div class="carte-corps">
                                 <h5 class="carte-titre">Notre-Dame-de-la-Garde</h5>
                             </div>
+                        </div>
                     </div>
-                    <div class="container-2 ombre cartes-hotel wrap-4">
+                    <div class="container-3 wrap-1">
+                        <div class="cartes-hotel petit ombre">
                             <img class="img-visites-2" alt="Visites" src="img/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
                                  height="auto" width="100%"/>
                             <div class="carte-corps">
                                 <h5 class="carte-titre">Parc Longchamp</h5>
                             </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </div>
+</div>
 </div>
 </body>
 </html>
