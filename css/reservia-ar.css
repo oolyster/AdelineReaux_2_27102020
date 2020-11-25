@@ -68,11 +68,7 @@ a {
 .container-5 {
     background: #ffffff;
     padding: 20px;
-}
-
-.container-5.filtre {
-    display: flex;
-    flex-direction: row;
+    text-align: center;
 }
 
 /*container cartes hotel*/
@@ -341,7 +337,8 @@ p.footer {
 /*filtre*/
 .container-8 {
     background: #ffffff;
-    padding: 5px;
+    padding: 5px 10px;
+    text-align: center;
 }
 
 /*icone filtre*/
@@ -349,9 +346,31 @@ p.footer {
     background: #DEEBFF;
     padding: 10px;
     border-radius: 50%;
+    text-align: center;
 }
 
 /*icone bleue*/
-.fa-money-bill-wave {
+.fas {
     color:#0d6efd;
+}
+
+
+.container-10 {
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5rem;
+    border: 2px solid #f2f2f2;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.filtre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
 }
