@@ -20,12 +20,16 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:filtres" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4ad6a8b-e20e-4c58-a69d-693e17c5047f" name="Default Changelist" comment="footer" />
+    <list default="true" id="c4ad6a8b-e20e-4c58-a69d-693e17c5047f" name="Default Changelist" comment="filtres v1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/reservia-ar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/reservia-ar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,7 +191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605861144506</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="recommit">
+      <created>1605889019716</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605889019716</updated>
+    </task>
+    <task id="LOCAL-00014" summary="filtres v1">
+      <created>1606298537145</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606298537145</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +222,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="footer" />
+                        <option value="filtres" />
                       </list>
                     </value>
                   </entry>
@@ -230,7 +248,9 @@
     <MESSAGE value="activités en ordre à paufiner" />
     <MESSAGE value="supp div inutile" />
     <MESSAGE value="footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer" />
+    <MESSAGE value="recommit" />
+    <MESSAGE value="filtres v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="filtres v1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="94" y="53" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605647699821">
@@ -245,10 +265,10 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="506" y="295" key="Github.ShareDialog/0.23.1280.777@0.23.1280.777" timestamp="1605201635539" />
-    <state x="124" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605861157232">
+    <state x="124" y="97" key="Vcs.Push.Dialog.v2" timestamp="1606298552098">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="124" y="97" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1605861157232" />
+    <state x="124" y="97" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1606298552098" />
     <state x="431" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605201706513">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -257,14 +277,14 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="0" y="23" width="904" height="506" key="dock-window-1/0.23.1280.777@0.23.1280.777" timestamp="1605828077511" />
-    <state x="384" y="111" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605827545514">
+    <state x="384" y="111" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605889002011">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="384" y="111" key="git4idea.branch.GitSmartOperationDialog/0.23.1280.777@0.23.1280.777" timestamp="1605827545514" />
-    <state width="600" height="428" key="javadoc.popup" timestamp="1605830873293">
+    <state x="384" y="111" key="git4idea.branch.GitSmartOperationDialog/0.23.1280.777@0.23.1280.777" timestamp="1605889002011" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1606317055365">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="600" height="428" key="javadoc.popup/0.23.1280.777@0.23.1280.777" timestamp="1605830873293" />
+    <state width="600" height="428" key="javadoc.popup/0.23.1280.777@0.23.1280.777" timestamp="1606317055365" />
     <state x="295" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1605692328330">
       <screen x="0" y="23" width="1280" height="777" />
     </state>

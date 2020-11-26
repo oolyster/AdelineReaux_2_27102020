@@ -64,10 +64,11 @@ a {
     background-color: transparent;
 }
 
-/*encadré gris*/
+/*encadré*/
 .container-5 {
     background: #ffffff;
     padding: 20px;
+    text-align: center;
 }
 
 /*container cartes hotel*/
@@ -191,6 +192,11 @@ p.petit {
     font-size: 0.8em;
     line-height: 0.9em;
 }
+
+p.bold {
+    font-weight: bold;
+}
+
 /*étoile pleine*/
 .checked {
     color: #0d6efd;
@@ -326,5 +332,45 @@ p.footer {
     flex-direction: column;
     background-color: transparent;
     padding: 30px 0;
+}
 
+/*filtre*/
+.container-8 {
+    background: #ffffff;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+/*icone filtre*/
+.container-9 {
+    background: #DEEBFF;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/*icone bleue*/
+.fas {
+    color:#0d6efd;
+}
+
+
+.container-10 {
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5rem;
+    border: 2px solid #f2f2f2;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.filtre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
 }
