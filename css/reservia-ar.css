@@ -34,6 +34,16 @@ a {
     flex-wrap: wrap;
     background-color: transparent;
 }
+/*direction colonne*/
+.colonne {
+    flex-direction: column;
+}
+
+/*direction ligne*/
+.en-ligne {
+    flex-direction: row;
+}
+
 /*section grise*/
 .container-1.gris {
     background-color: #f2f2f2;
@@ -68,7 +78,6 @@ a {
 .container-5 {
     background: #ffffff;
     padding: 20px;
-    text-align: center;
 }
 
 /*container cartes hotel*/
@@ -265,8 +274,8 @@ a.nav-active {
 
 /* search box */
 
-.button_box2 {
-    margin:10px 20px;
+.bouton {
+    margin:0px;
 }
 
 .cf:before, .cf:after{
@@ -280,15 +289,32 @@ a.nav-active {
     zoom:1;
 }
 
-.form-wrapper-2 {
+.container-11 {
+    display:flex;
     width: 330px;
+    height: 40px;
     padding: 2px;
     border: 1px solid #f2f2f2;
     border-radius: 0.5rem;
 }
+
+.location {
+    border-radius: 0.5rem;
+    background-color: #f2f2f2;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+.form-wrapper-2 {
+    width: 330px;
+    padding: 2px;
+}
+
 .form-wrapper-2 input {
     width: 210px;
-    height: 20px;
     padding: 10px 5px;
     float: left;
     font: bold 15px 'Raleway', sans-serif;
@@ -297,7 +323,6 @@ a.nav-active {
     border-radius: 0.5rem 0 0 0.5rem;
 }
 .form-wrapper-2 button {
-    overflow: visible;
     position: relative;
     float: right;
     border: 0;
@@ -373,4 +398,8 @@ p.footer {
     align-items: center;
     justify-content: center;
     padding: 0 20px;
+}
+
+.fa-map-marker-alt {
+    color: #696969;
 }

@@ -20,12 +20,16 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:filtres" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:recherche" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4ad6a8b-e20e-4c58-a69d-693e17c5047f" name="Default Changelist" comment="filtres v2" />
+    <list default="true" id="c4ad6a8b-e20e-4c58-a69d-693e17c5047f" name="Default Changelist" comment="filtres v3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/reservia-ar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/reservia-ar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +62,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="filtres" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -208,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606317640865</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="filtres v3">
+      <created>1606414365084</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1606414365084</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +236,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="filtres" />
+                        <option value="recherche" />
                       </list>
                     </value>
                   </entry>
@@ -254,7 +265,8 @@
     <MESSAGE value="recommit" />
     <MESSAGE value="filtres v1" />
     <MESSAGE value="filtres v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="filtres v2" />
+    <MESSAGE value="filtres v3" />
+    <option name="LAST_COMMIT_MESSAGE" value="filtres v3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="94" y="53" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605647699821">
@@ -269,10 +281,10 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="506" y="295" key="Github.ShareDialog/0.23.1280.777@0.23.1280.777" timestamp="1605201635539" />
-    <state x="124" y="97" key="Vcs.Push.Dialog.v2" timestamp="1606317646199">
+    <state x="124" y="97" key="Vcs.Push.Dialog.v2" timestamp="1606414373787">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="124" y="97" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1606317646199" />
+    <state x="124" y="97" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1606414373787" />
     <state x="431" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605201706513">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
