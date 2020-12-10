@@ -12,8 +12,8 @@ p {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-size: 1em;
     line-height: 1.2em;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 h3{
@@ -236,7 +236,7 @@ p.bold {
 
 /* début personnalisation navbar reservia PAS FINI */
 
-.navbar{
+.navbar {
     position:relative;
     display:flex;
     flex-wrap:wrap;
@@ -273,7 +273,8 @@ ul.navbar-nav a:hover {
 }
 
 a.nav-active {
-    color: #0d6efd;
+    border-top: 2px solid #0d6efd;
+    padding:10px 5px;
 }
 
 .border-nav:hover {
@@ -291,18 +292,7 @@ a.nav-active {
 /* search box */
 
 .bouton {
-    margin:0px;
-}
-
-.cf:before, .cf:after{
-    content:"";
-    display:table;
-}
-.cf:after{
-    clear:both;
-}
-.cf{
-    zoom:1;
+    margin:0;
 }
 
 .container-11 {
@@ -397,7 +387,6 @@ p.footer {
 /*icone info*/
 .info {
     background: #ffffff;
-    border-color: #f2f2f2;
     width: 20px;
     height: 20px;
     border-radius: 5rem;
@@ -443,4 +432,61 @@ p.footer {
 
 .fa-map-marker-alt {
     color: #696969;
+}
+
+
+/*MOBILE*/
+@media only screen and (max-width : 320px)  {
+    .navbar {
+        align-items: start;
+        flex-direction: column;
+    }
+    .navbar-nav {
+        flex-direction: column;
+    }
+    .container-1 {
+        flex-direction: column;
+    }
+    .container-5 {
+        max-width: 300px;
+    }
+    .container-11 {
+        width: 300px;
+    }
+    .form-wrapper-2 {
+        width: 260px;
+        padding: 2px;
+    }
+    .form-wrapper-2 input {
+        width: 140px;
+    }
+    .container-2 {
+        flex-direction: column;
+    }
+    .container-6 {
+        flex-direction: column;
+    }
+    .container-6 {
+        width:100%;
+    }
+    .bloc-1 {
+        width:100%;
+    }
+
+    .bloc-2 {
+        max-width:100%;
+    }
+    .ligne-responsive {
+        flex-direction: row;
+    }
+    .carte-corps>.fa {
+        font-size: 0.6em;
+    }
+    p.petit {
+        line-height: 1em;
+        padding: 10px 0;
+    }
+    .carte-titre {
+        font-size: 0.8em;
+    }
 }
