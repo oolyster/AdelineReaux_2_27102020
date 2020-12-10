@@ -20,7 +20,7 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:recherche" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:responsive" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -46,7 +46,7 @@
     </option>
   </component>
   <component name="Git.Pull.Settings">
-    <option name="BRANCH" value="recherche" />
+    <option name="BRANCH" value="main" />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -62,7 +62,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="filtres" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,6 +84,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -219,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606414365084</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="reup">
+      <created>1607005581417</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1607005581417</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +244,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="recherche" />
+                        <option value="responsive" />
                       </list>
                     </value>
                   </entry>
@@ -266,7 +274,8 @@
     <MESSAGE value="filtres v1" />
     <MESSAGE value="filtres v2" />
     <MESSAGE value="filtres v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="filtres v3" />
+    <MESSAGE value="reup" />
+    <option name="LAST_COMMIT_MESSAGE" value="reup" />
   </component>
   <component name="WindowStateProjectService">
     <state x="94" y="53" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605647699821">
@@ -281,10 +290,22 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="506" y="295" key="Github.ShareDialog/0.23.1280.777@0.23.1280.777" timestamp="1605201635539" />
-    <state x="124" y="97" key="Vcs.Push.Dialog.v2" timestamp="1606414373787">
+    <state x="118" y="70" key="MergeDialog" timestamp="1607005626323">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="124" y="97" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1606414373787" />
+    <state x="118" y="70" key="MergeDialog/0.23.1280.777@0.23.1280.777" timestamp="1607005626323" />
+    <state x="270" y="160" key="MultipleFileMergeDialog" timestamp="1607005626359">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="270" y="160" key="MultipleFileMergeDialog/0.23.1280.777@0.23.1280.777" timestamp="1607005626359" />
+    <state x="139" y="30" key="SettingsEditor" timestamp="1607335714492">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="139" y="30" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1607335714492" />
+    <state x="124" y="97" key="Vcs.Push.Dialog.v2" timestamp="1607005588374">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="124" y="97" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1607005588374" />
     <state x="431" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605201706513">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -297,6 +318,10 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="384" y="111" key="git4idea.branch.GitSmartOperationDialog/0.23.1280.777@0.23.1280.777" timestamp="1605889002011" />
+    <state x="448" y="287" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1607005412840">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="448" y="287" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1280.777@0.23.1280.777" timestamp="1607005412840" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1606317055365">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
