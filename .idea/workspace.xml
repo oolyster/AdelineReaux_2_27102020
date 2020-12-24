@@ -10,6 +10,11 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
@@ -102,6 +107,7 @@
       <workItem from="1605183069156" duration="7075000" />
       <workItem from="1605636671857" duration="8207000" />
       <workItem from="1605687464219" duration="21354000" />
+      <workItem from="1608587253519" duration="2340000" />
     </task>
     <task id="LOCAL-00001" summary="Add files via upload">
       <created>1605647764088</created>

@@ -67,6 +67,7 @@ a {
     display: flex;
     flex-direction: column;
     margin : 10px;
+    flex-grow: 1;
 }
 
 /*container cartes activités*/
@@ -108,16 +109,8 @@ a {
     flex: 1 0 95%;
 }
 
-.wrap-2 {
-    flex: 1 0 48%;
-}
-
 .wrap-3 {
     max-width: 30%;
-}
-
-.wrap-4 {
-    flex: 1 0 21%;
 }
 
 .ombre {
@@ -148,7 +141,7 @@ a {
     background-color:#ffffff;
     background-clip:border-box;
     border:1px solid rgba(0,0,0,.125);
-    border-radius:0.5rem;
+    border-radius:0.75rem;
 }
 
 .carte.hotel {
@@ -338,7 +331,7 @@ a.nav-active {
     align-items: center;
     justify-content: center;
     width: 30px;
-    height: 30px;
+    height: 100%;
 }
 
 
@@ -364,7 +357,6 @@ a.nav-active {
     padding: 0;
     cursor: pointer;
     height: 40px;
-    width: 110px;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 15px;
@@ -377,14 +369,12 @@ a.nav-active {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 15px;
+    width: 110px;
     color: #ffffff;
     background: #0d6efd;
     border-radius: 0 0.5rem 0.5rem 0;
 }
 
-.bouton-mobile {
-    display:none;
-}
 
 /*font rubrique footer*/
 p.rubrique {
@@ -440,6 +430,10 @@ p.footer {
     color:#0d6efd;
 }
 
+.fa-search {
+     color: #ffffff;
+ }
+
 
 .container-10 {
     background: #ffffff;
@@ -450,8 +444,9 @@ p.footer {
     border-radius: 5rem;
     border: 2px solid #f2f2f2;
     text-align: center;
-    margin-right: 10px;
+    margin: 5px;
 }
+
 
 .container-10.texte {
     border: none;
@@ -502,7 +497,7 @@ p.footer {
         width: 300px;
     }
     .form-wrapper-2 {
-        width: 260px;
+        width: 280px;
     }
     .form-wrapper-2 input {
         width: 140px;
@@ -566,6 +561,17 @@ p.footer {
     .hotel-prix {
         line-height: 1.2em;
     }
+    .wrap-3 {
+        max-width: 100%;
+    }
+    .container-7 {
+        width: 90%;
+    }
+
+    .fond-blanc {
+        background: #ffffff;
+    }
+
 }
 
 /*DESKTOP*/
@@ -576,5 +582,9 @@ p.footer {
 
     .bloc-2 {
         max-width: 33%;
+    }
+
+    .bouton-mobile {
+        display:none;
     }
 }
