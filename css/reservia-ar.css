@@ -56,10 +56,13 @@ a {
 
 /*encadré gris*/
 .container-2 {
+    display: flex;
+    flex-direction: column;
     background: #f2f2f2;
-    padding: 10px;
+    padding: 30px;
     box-sizing: border-box;
     border-radius: .5rem;
+    justify-content: space-between;
 }
 
 /*cartes*/
@@ -124,7 +127,7 @@ a {
 
 .ombre {
     box-shadow: 0.5rem 0.5rem 0.5rem rgba(0,0,0,.15);
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
 
 .cartes-hotel {
@@ -138,7 +141,7 @@ a {
     background-color:#ffffff;
     background-clip:border-box;
     border:1px solid rgba(0,0,0,.125);
-    border-radius:0.5rem;
+    border-radius:1rem;
 }
 
 .carte {
@@ -150,7 +153,7 @@ a {
     background-color:#ffffff;
     background-clip:border-box;
     border:1px solid rgba(0,0,0,.125);
-    border-radius:0.75rem;
+    border-radius:1rem;
 }
 
 .carte.hotel {
@@ -183,32 +186,32 @@ a {
 }
 
 .img-hotel {
-    border-top-left-radius:0.5rem;
-    border-top-right-radius:0.5rem;
+    border-top-left-radius:1rem;
+    border-top-right-radius:1rem;
     width: 100%;
     height: 110px;
     object-fit: cover;
 }
 
 .img-gauche {
-    border-top-left-radius:0.5rem;
-    border-bottom-left-radius:0.5rem;
+    border-top-left-radius:1rem;
+    border-bottom-left-radius:1rem;
     width: 40%;
     height: 110px;
     object-fit: cover;
 }
 
 .img-visites-1 {
-    border-top-left-radius:0.5rem;
-    border-top-right-radius:0.5rem;
+    border-top-left-radius:1rem;
+    border-top-right-radius:1rem;
     width: 100%;
     height: 90%;
     object-fit: cover;
 }
 
 .img-visites-2 {
-    border-top-left-radius:0.5rem;
-    border-top-right-radius:0.5rem;
+    border-top-left-radius:1rem;
+    border-top-right-radius:1rem;
     width: 100%;
     height: 80%;
     object-fit: cover;
@@ -229,10 +232,6 @@ h5 {
 
 p.petit {
     font-size: 0.8em;
-    line-height: 1em;
-}
-
-.hotel-prix {
     line-height: 2em;
 }
 
@@ -333,7 +332,7 @@ a.nav-active {
 
 .location {
     display: flex;
-    border-radius: 0.5rem;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
     background-color: #f2f2f2;
     padding:0.2rem 0.6rem;
     box-sizing: border-box;
@@ -434,16 +433,6 @@ p.footer {
     border: 2px solid #f2f2f2;
 }
 
-/*icône bleue*/
-.fas {
-    color:#0d6efd;
-}
-
-.fa-search {
-     color: #ffffff;
- }
-
-
 .container-10 {
     background: #ffffff;
     display: flex;
@@ -478,14 +467,25 @@ p.footer {
     box-sizing: border-box;
 }
 
-.fa-map-marker-alt {
+.couleur-gris-f {
     color: #696969;
+}
+
+.couleur-bleu {
+    color: #0d6efd;
+}
+
+.couleur-blanc {
+    color: #ffffff;
 }
 
 .carte-corps>.fa {
     font-size: 0.8em;
 }
 
+.droite {
+    float: right;
+}
 
 /*MOBILE*/
 @media only screen and (max-width : 420px)  {
