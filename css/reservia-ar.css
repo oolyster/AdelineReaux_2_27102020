@@ -500,7 +500,8 @@ p.footer {
         flex-direction: column;
     }
     .container-5 {
-        max-width: 100%;
+        max-width: 98%;
+        padding: 10px;
     }
     .container-11 {
         width: 300px;
@@ -514,6 +515,7 @@ p.footer {
     .container-2 {
         flex-direction: column;
         width: 95%;
+        padding: 15px;
     }
     .container-6 {
         flex-direction: column;
@@ -583,6 +585,33 @@ p.footer {
 
     .visites-mobile {
         height: 200px;
+        box-sizing: border-box;
+    }
+
+    .visites-grand-mobile-100 {
+        height: 95%;
+        box-sizing: border-box;
+    }
+
+    .visites-grand-mobile-80 {
+        height: 80%;
+        box-sizing: border-box;
+    }
+
+    .phrase-info {
+        max-width: 75%;
+    }
+    .inscription {
+        align-self: flex-start;
+    }
+
+    .menu {
+        align-self: flex-end;
+        align-items: flex-end;
+    }
+
+    .navbar-menu {
+        flex-direction: column-reverse;
     }
 
 }
