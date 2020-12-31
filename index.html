@@ -16,19 +16,23 @@
             <img class="img-logo" src="img/reservia-logo.png" alt="">
         </a>
     </div>
-    <div>
-        <ul class="navbar-nav">
-            <li class="nav-item border-nav ">
-                <a href="#" class="nav-link nav-active">Hébergements</a>
+    <div class="nav-bar-menu en-ligne">
+        <ul class="navbar-nav menu">
+            <li class="nav-item border-nav">
+                <a href="#hebergements" class="nav-link nav-active">Hébergements</a>
             </li>
             <li class="nav-item border-nav">
-                <a href="#" class="nav-link">Activit&eacute;s</a>
-            </li>
-            <li class="nav-item border-nav">
-                <a href="#" class="nav-link-bold">S'inscrire</a>
+                <a href="#activites" class="nav-link">Activit&eacute;s</a>
             </li>
         </ul>
     </div>
+    <div class="nav-bar-menu inscription en-ligne">
+    <ul class="navbar-nav">
+        <li class="nav-item border-nav">
+            <a href="#" class="nav-link-bold">S'inscrire</a>
+        </li>
+    </ul>
+</div>
 </nav>
 <!-- fin barre de navigation-->
     <div class="container-1 colonne">
@@ -39,13 +43,13 @@
             <div class="container-5">
                 <div class="container-11 en-ligne">
                     <div class="location">
-                        <i class="fas fa-map-marker-alt fa-lg"></i>
+                        <i class="fas fa-map-marker-alt fa-lg couleur-gris-f"></i>
                     </div>
                     <div class="bouton">
                         <form class="form-wrapper-2 cf">
                             <input type="text" placeholder="Ville" value="Marseille, France">
                             <button class="bouton-desktop" type="submit">Rechercher</button>
-                            <button class="bouton-mobile" type="submit"><i class="fas fa-search"></i></button>
+                            <button class="bouton-mobile" type="submit"><i class="fas fa-search couleur-blanc"></i></button>
                         </form>
                     </div>
                 </div>
@@ -55,56 +59,57 @@
         <div class="container-5 filtre">
             <p class="bold">Filtres</p>
         </div>
-        <div class="container-10">
+        <div class="container-10 zoom">
             <div class="container-9">
-                <a href="#"><i class="fas fa-money-bill-wave"></i></a>
+                <a href="#"><i class="fas fa-money-bill-wave couleur-bleu"></i></a>
             </div>
             <div class="container-8">
                 <a href="#"><p class="bold">Économique</p></a>
             </div>
         </div>
-        <div class="container-10">
+        <div class="container-10 zoom">
             <div class="container-9">
-                <a href="#"><i class="fas fa-child"></i></a>
+                <a href="#"><i class="fas fa-child couleur-bleu"></i></a>
             </div>
             <div class="container-8">
                 <a href="#"><p class="bold">Familial</p></a>
             </div>
         </div>
-        <div class="container-10">
+        <div class="container-10 zoom">
             <div class="container-9">
-                <a href="#"><i class="fas fa-heart"></i></a>
+                <a href="#"><i class="fas fa-heart couleur-bleu"></i></a>
             </div>
             <div class="container-8">
                 <a href="#"><p class="bold">Romantique</p></a>
             </div>
         </div>
-        <div class="container-10">
+        <div class="container-10 zoom">
             <div class="container-9">
-                <a href="#"><i class="fas fa-dog"></i></a>
+                <a href="#"><i class="fas fa-dog couleur-bleu"></i></a>
             </div>
             <div class="container-8">
                 <a href="#"><p class="bold">Animaux autorisés</p></a>
             </div>
         </div>
     </div>
-<div class="container-1 en-ligne ligne-responsive">
-    <div class="container-5">
-        <div class="container-9 info">
-            <i class="fas fa-info"></i>
+    <div class="container-1 en-ligne ligne-responsive">
+        <div class="container-5">
+            <div class="container-9 info">
+                <i class="fas fa-info couleur-bleu"></i>
+            </div>
+        </div>
+        <div class="container-5 phrase-info en-ligne ligne-responsive">
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
     </div>
-    <div class="container-5 phrase-info en-ligne ligne-responsive">
-        <p>Plus de 500 logements sont disponibles dans cette ville</p>
-    </div>
-</div>
-    <div class="container-1 reverse">
+    <div id="hebergements" class="container-1 reverse">
         <div class="bloc-1">
             <div class="container-2 fond-blanc">
                 <h3>Hébergements à Marseille</h3>
                 <div class="container-6">
                     <div class="container-3 ombre wrap-3">
-                        <div class="cartes-hotel">
+                        <a href="#">
+                            <div class="cartes-hotel">
                             <img class="img-hotel" alt="Hotel" src="img/marcus-loke-WQJvWU_HZFo-unsplash.jpg"/>
                             <div class="carte-corps">
                                 <div class="hotel-prix">
@@ -120,9 +125,11 @@
                                 </div>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div class="container-3 ombre wrap-3">
-                        <div class="cartes-hotel">
+                        <a href="#">
+                            <div class="cartes-hotel">
                             <img class="img-hotel" alt="Hotel" src="img/fred-kleber-gTbaxaVLvsg-unsplash.jpg"/>
                             <div class="carte-corps">
                                 <div class="hotel-prix">
@@ -137,9 +144,11 @@
                                     <i class="fa fa-star checked"></i></div>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div class="container-3 ombre wrap-3">
-                        <div class="cartes-hotel">
+                        <a href="#">
+                            <div class="cartes-hotel">
                             <img class="img-hotel" alt="Hotel" src="img/reisetopia-B8WIgxA_PFU-unsplash.jpg"/>
                             <div class="carte-corps">
                                 <div class="hotel-prix">
@@ -154,9 +163,11 @@
                                     <i class="fa fa-star unchecked"></i></div>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div class="container-3 ombre wrap-3">
-                        <div class="cartes-hotel">
+                        <a href="#">
+                            <div class="cartes-hotel">
                             <img class="img-hotel" alt="Hotel" src="img/annie-spratt-Eg1qcIitAuA-unsplash.jpg"/>
                             <div class="carte-corps">
                                 <div class="hotel-prix">
@@ -171,9 +182,11 @@
                                     <i class="fa fa-star unchecked"></i></div>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div class="container-3 ombre wrap-3">
-                        <div class="cartes-hotel">
+                        <a href="#">
+                            <div class="cartes-hotel">
                             <img class="img-hotel" alt="Hotel" src="img/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"/>
                             <div class="carte-corps">
                                 <div class="hotel-prix">
@@ -188,9 +201,11 @@
                                     <i class="fa fa-star unchecked"></i></div>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div class="container-3 ombre wrap-3">
-                        <div class="cartes-hotel">
+                        <a href="#">
+                            <div class="cartes-hotel">
                             <img class="img-hotel" alt="Hotel" src="img/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"/>
                             <div class="carte-corps">
                                 <div class="hotel-prix">
@@ -205,6 +220,7 @@
                                     <i class="fa fa-star checked"></i></div>
                             </div>
                         </div>
+                        </a>
                     </div>
                 </div>
                 <h3>Afficher plus</h3>
@@ -212,9 +228,11 @@
         </div>
         <div class="bloc-2">
             <div class="container-2">
-                <h3>Les plus populaires</h3>
-                <div class="container-3 ombre">
-                    <div class="cartes-hotel populaire">
+                <h3>Les plus populaires <i class="fas fa-chart-line droite"></i></h3>
+                <div class="container-6">
+                    <div class="container-3 ombre">
+                        <a href="#">
+                            <div class="cartes-hotel populaire">
                         <img class="img-gauche" alt="Hotel" src="img/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" />
                         <div class="carte-corps">
                             <div class="hotel-prix">
@@ -228,9 +246,13 @@
                             </div>
                         </div>
                     </div>
+                        </a>
                 </div>
-                <div class="container-3 ombre">
-                    <div class="cartes-hotel populaire">
+                </div>
+                <div class="container-6">
+                    <div class="container-3 ombre">
+                        <a href="#">
+                            <div class="cartes-hotel populaire">
                         <img class="img-gauche" alt="Hotel" src="img/aw-creative-VGs8z60yT2c-unsplash.jpg" />
                         <div class="carte-corps">
                             <div class="hotel-prix">
@@ -245,9 +267,13 @@
                                 <i class="fa fa-star unchecked"></i></div>
                         </div>
                     </div>
+                        </a>
                 </div>
-                <div class="container-3 ombre">
-                    <div class="cartes-hotel populaire">
+                </div>
+                    <div class="container-6">
+                    <div class="container-3 ombre">
+                        <a href="#">
+                            <div class="cartes-hotel populaire">
                         <img class="img-gauche" alt="Hotel" src="img/febrian-zakaria-sjvU0THccQA-unsplash.jpg" />
                         <div class="carte-corps">
                             <div class="hotel-prix">
@@ -262,68 +288,70 @@
                                 <i class="fa fa-star unchecked"></i></div>
                         </div>
                     </div>
+                        </a>
+                </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-1">
+    <div id="activites" class="container-1">
             <div class="container-5">
                 <h3>Activit&eacute;s &agrave; Marseille</h3>
                 <div class="container-6">
-                    <div class="container-4">
-                      <div class="container-3 zoom">
-                          <div class="carte grand ombre">
-                          <img class="img-visites-1" alt="Visite" src="img/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"/>
+                    <div class="container-4 visites-mobile">
+                      <div class="container-3 visites-grand-mobile-100">
+                          <a href="#" class="carte grand ombre visites-grand-mobile-100"><div class="carte grand ombre">
+                          <img class="img-visites-1 visites-grand-mobile-80" alt="Visite" src="img/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"/>
                           <div class="carte-corps">
                               <h5 class="carte-titre">Vieux Port</h5>
                           </div>
-                          </div>
+                          </div></a>
                       </div>
                     </div>
                     <div class="container-4">
-                       <div class="container-3 wrap-1 zoom">
-                           <div class="carte petit ombre">
-                           <img class="img-visites-2" alt="Visites" src="img/paul-hermann-QFTrLdQIRhI-unsplash.jpg"/>
+                       <div class="container-3 wrap-1">
+                           <a href="#" class="carte petit ombre"><div class="carte petit ombre">
+                               <img class="img-visites-2" alt="Visites" src="img/paul-hermann-QFTrLdQIRhI-unsplash.jpg"/>
                            <div class="carte-corps">
                                <h5 class="carte-titre">Fort de Pom&egrave;gues</h5>
                            </div>
-                           </div>
+                           </div></a>
                        </div>
-                        <div class="container-3 wrap-1 zoom">
-                            <div class="carte petit ombre">
+                        <div class="container-3 wrap-1">
+                            <a href="#" class="carte petit ombre"><div class="carte petit ombre">
                             <img class="img-visites-2" alt="Visites" src="img/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"/>
                             <div class="carte-corps">
                                 <h5 class="carte-titre">&Icirc;les du Frioul</h5>
                             </div>
-                            </div>
+                            </div></a>
                         </div>
                     </div>
-                <div class="container-4">
-                    <div class="container-3 zoom">
-                        <div class="carte grand ombre">
-                            <img class="img-visites-1" alt="Visites" src="img/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"/>
+                <div class="container-4 visites-mobile">
+                    <div class="container-3 visites-grand-mobile-100">
+                        <a href="#" class="carte grand ombre visites-grand-mobile-100"><div class="carte grand ombre visites-mobile">
+                            <img class="img-visites-1 visites-grand-mobile-80" alt="Visites" src="img/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"/>
                             <div class="carte-corps">
                                 <h5 class="carte-titre">Parc National des Calanques</h5>
                             </div>
-                        </div>
+                        </div></a>
                     </div>
                 </div>
                 <div class="container-4">
-                    <div class="container-3 wrap-1 zoom">
-                        <div class="carte petit ombre">
+                    <div class="container-3 wrap-1">
+                        <a href="#" class="carte petit ombre"> <div class="carte petit ombre">
                             <img class="img-visites-2" alt="Visites" src="img/florian-wehde-xW9e8gdotxI-unsplash.jpg"/>
                             <div class="carte-corps">
                                 <h5 class="carte-titre">Notre-Dame-de-la-Garde</h5>
                             </div>
-                        </div>
+                        </div></a>
                     </div>
-                    <div class="container-3 wrap-1 zoom">
-                        <div class="carte petit ombre">
+                    <div class="container-3 wrap-1">
+                        <a href="#" class="carte petit ombre"><div class="carte petit ombre">
                             <img class="img-visites-2" alt="Visites" src="img/lena-paulin-wH2-EJoDcV0-unsplash.jpg"/>
                             <div class="carte-corps">
                                 <h5 class="carte-titre">Parc Longchamp</h5>
                             </div>
-                        </div>
+                        </div></a>
                     </div>
                 </div>
             </div>
