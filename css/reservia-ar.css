@@ -255,7 +255,7 @@ p.bold {
 
 /* fin blocks gris */
 
-/* début personnalisation navbar reservia PAS FINI */
+/* début navbar */
 
 .navigation {
     display: grid;
@@ -298,36 +298,7 @@ p.bold {
     font-weight: bold;
 }
 
-@media screen and (max-width: 420px) {
-    .navigation {
-        grid-template-columns: auto 1fr auto;
-        grid-template-areas: "logo . button" "navbar navbar navbar";
-    }
-    .navigation-image {
-        order: 0;
-    }
-    .navigation-inscription {
-        order: 1;
-    }
-    .navigation-menu {
-        order: 2;
-    }
-    .navigation-menu-lien {
-        border-top: none;
-        border-bottom: 3px solid #F2F2F2;
-        width: 50%;
-    }
-    .navigation-menu-lien[data-active=true] {
-        border-bottom-color: #0065FC;
-    }
-    .navigation-menu-lien:hover {
-        border-bottom-color: #0065FC;
-    }
-}
-
-
-
-/* fin personnalisation navbar reservia */
+/* fin navbar */
 
 /* search box */
 
@@ -627,6 +598,30 @@ p.footer {
         flex-direction: column-reverse;
     }
 
+    .navigation {
+        grid-template-columns: auto 1fr auto;
+        grid-template-areas: "logo . button" "navbar navbar navbar";
+    }
+    .navigation-image {
+        order: 0;
+    }
+    .navigation-inscription {
+        order: 1;
+    }
+    .navigation-menu {
+        order: 2;
+    }
+    .navigation-menu-lien {
+        border-top: none;
+        border-bottom: 3px solid #F2F2F2;
+        width: 50%;
+    }
+    .navigation-menu-lien[data-active=true] {
+        border-bottom-color: #0065FC;
+    }
+    .navigation-menu-lien:hover {
+        border-bottom-color: #0065FC;
+    }
 }
 
 /*DESKTOP*/
