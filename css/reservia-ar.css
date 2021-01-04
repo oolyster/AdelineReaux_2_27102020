@@ -106,14 +106,14 @@ a {
     background-color: transparent;
 }
 
-/*deux tiers de page*/
+/*deux tiers*/
 .bloc-1 {
     display: flex;
     margin: 0 20px 0 0;
     width : 65%;
 }
 
-/*un tiers de page*/
+/*un tiers*/
 .bloc-2 {
     display: flex;
     width : 35%;
