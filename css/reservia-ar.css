@@ -62,7 +62,7 @@ a {
     padding: 30px;
     box-sizing: border-box;
     border-radius: .5rem;
-    justify-content: space-between;
+    justify-content: start;
 }
 
 /*cartes*/
@@ -119,10 +119,12 @@ a {
 
 .wrap-1 {
     flex: 1 0 95%;
+    flex-wrap: wrap;
 }
 
 .wrap-3 {
     max-width: 30%;
+    flex-wrap: wrap;
 }
 
 .ombre {
@@ -137,6 +139,7 @@ a {
     display:flex;
     flex-direction:column;
     min-width:0;
+    height: 210px;
     word-wrap:break-word;
     background-color:#ffffff;
     background-clip:border-box;
@@ -197,7 +200,7 @@ a {
     border-top-left-radius:1rem;
     border-bottom-left-radius:1rem;
     width: 40%;
-    height: 110px;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -220,6 +223,7 @@ a {
 .populaire {
     display: flex;
     flex-direction: row;
+    height: 110px;
 }
 
 h5 {
@@ -281,14 +285,7 @@ p.bold {
     border-top: 3px transparent solid;
     border-bottom: 3px transparent solid;
 }
-.navigation-menu-lien [data-active=true] {
-    color: #0065FC;
-    border-top: 3px solid #0065FC;
-}
-.navigation-menu-lien:hover {
-    color: #0065FC;
-    border-top: 3px solid #0065FC;
-}
+
 .navigation-inscription {
     display: flex;
     align-items: center;
@@ -423,7 +420,7 @@ p.footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border-radius: 5rem;
+    border-radius: 2rem;
     border: 2px solid #f2f2f2;
     text-align: center;
     margin: 5px;
@@ -471,8 +468,25 @@ p.footer {
     float: right;
 }
 
+@media only screen and (max-width : 1024px) {
+    .wrap-3 {
+        max-width: 43%;
+        flex-wrap: wrap;
+    }
+
+    .container-2 {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .populaire {
+        font-size: 0.8em;
+        height: 140px;
+    }
+}
+
 /*MOBILE*/
-@media only screen and (max-width : 420px)  {
+@media only screen and (max-width : 600px)  {
     .navbar {
         align-items: start;
         flex-direction: column;
@@ -556,6 +570,11 @@ p.footer {
     .hotel-prix {
         line-height: 1.2em;
     }
+
+    .populaire {
+        font-size: 1em;
+    }
+
     .wrap-3 {
         max-width: 100%;
     }
@@ -625,7 +644,7 @@ p.footer {
 }
 
 /*DESKTOP*/
-@media only screen and (min-width : 421px) {
+@media only screen and (min-width : 601px) {
     .bloc-1 {
         max-width: 63%;
     }
@@ -637,4 +656,15 @@ p.footer {
     .bouton-mobile {
         display:none;
     }
+
+    .navigation-menu-lien [data-active=true] {
+        color: #0065FC;
+        border-top: 3px solid #0065FC;
+    }
+    .navigation-menu-lien:hover {
+        color: #0065FC;
+        border-top: 3px solid #0065FC;
+    }
 }
+
+
