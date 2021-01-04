@@ -110,13 +110,13 @@ a {
 .bloc-1 {
     display: flex;
     margin: 0 20px 0 0;
-    width : 65%
+    width : 65%;
 }
 
 /*un tiers de page*/
 .bloc-2 {
     display: flex;
-    width : 35%
+    width : 35%;
 }
 
 .wrap-1 {
