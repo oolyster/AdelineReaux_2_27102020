@@ -76,7 +76,7 @@ a {
 /*container cartes activités*/
 .container-4 {
     height: 390px;
-    width: 24%;
+    width: 23%;
     display: flex;
     flex-wrap: wrap;
     background-color: transparent;
@@ -106,15 +106,17 @@ a {
     background-color: transparent;
 }
 
-/*deux tiers de page*/
+/*deux tiers*/
 .bloc-1 {
     display: flex;
     margin: 0 20px 0 0;
+    width : 65%;
 }
 
-/*un tiers de page*/
+/*un tiers*/
 .bloc-2 {
     display: flex;
+    width : 35%;
 }
 
 .wrap-1 {
@@ -482,6 +484,10 @@ p.footer {
     .populaire {
         font-size: 0.8em;
         height: 140px;
+    }
+
+    .visites-tablette {
+        padding:5px 10px;
     }
 }
 
