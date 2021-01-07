@@ -20,7 +20,7 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:responsive" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:tests" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -62,7 +62,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="responsive" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -108,7 +108,7 @@
       <workItem from="1605636671857" duration="8207000" />
       <workItem from="1605687464219" duration="21354000" />
       <workItem from="1608587253519" duration="3560000" />
-      <workItem from="1609278392812" duration="10760000" />
+      <workItem from="1609278392812" duration="19136000" />
     </task>
     <task id="LOCAL-00001" summary="Add files via upload">
       <created>1605647764088</created>
@@ -313,7 +313,28 @@
       <option name="project" value="LOCAL" />
       <updated>1609784214859</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="ajustements navigation">
+      <created>1609784882038</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1609784882038</updated>
+    </task>
+    <task id="LOCAL-00031" summary="ajustements navigation">
+      <created>1609784965560</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1609784965560</updated>
+    </task>
+    <task id="LOCAL-00032" summary="ajustements">
+      <created>1609785039682</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1609785039682</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +351,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="responsive" />
+                        <option value="tests" />
                       </list>
                     </value>
                   </entry>
@@ -344,7 +365,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="from scratch" />
     <MESSAGE value="Reload from scratch" />
     <MESSAGE value="Add files via upload" />
     <MESSAGE value="test images" />
@@ -369,7 +389,8 @@
     <MESSAGE value="liens cartes hotel" />
     <MESSAGE value="resp" />
     <MESSAGE value="ajustements navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajustements navigation" />
+    <MESSAGE value="ajustements" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajustements" />
   </component>
   <component name="WindowStateProjectService">
     <state x="94" y="53" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605647699821">
@@ -396,10 +417,10 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="139" y="30" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1607335714492" />
-    <state x="124" y="97" key="Vcs.Push.Dialog.v2" timestamp="1609784219485">
+    <state x="124" y="97" key="Vcs.Push.Dialog.v2" timestamp="1609785045235">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="124" y="97" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1609784219485" />
+    <state x="124" y="97" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1609785045235" />
     <state x="431" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605201706513">
       <screen x="0" y="23" width="1280" height="777" />
     </state>

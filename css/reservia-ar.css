@@ -30,14 +30,63 @@ a {
     color:inherit;
 }
 
+/*DIRECTIONS FLEX*/
+.direction-colonne {
+    flex-direction: column;
+}
+
+.direction-ligne {
+    flex-direction: row;
+}
+
+/*CONTAINERS*/
 /*sections*/
-.container-1 {
+.grand-container {
+    border: 1px solid #ff0000;
     display: flex;
     flex-wrap: wrap;
     background-color: transparent;
     width: 100%;
-    padding: 10px;
+    padding: 0.2em 1em;
+    box-sizing: border-box;
 }
+
+.fond-gris {
+    background-color: #f2f2f2;
+}
+
+/*encadré gris*/
+.container-carte-grand {
+    border: 1px solid blue;
+    display: flex;
+    padding: 1.5em;
+    box-sizing: border-box;
+    border-radius: 1em;
+    justify-content: start;
+}
+
+/*cartes*/
+.container-carte {
+    display: flex;
+    flex-direction: column;
+    margin : 10px;
+    flex-grow: 1;
+}
+
+.ombre {
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0,0,0,.15);
+    border-radius: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
 /*direction colonne*/
 .colonne {
     flex-direction: column;
@@ -49,29 +98,6 @@ a {
     flex-direction: row;
 }
 
-/*section grise*/
-.container-1.gris {
-    background-color: #f2f2f2;
-}
-
-/*encadré gris*/
-.container-2 {
-    display: flex;
-    flex-direction: column;
-    background: #f2f2f2;
-    padding: 30px;
-    box-sizing: border-box;
-    border-radius: .5rem;
-    justify-content: start;
-}
-
-/*cartes*/
-.container-3 {
-    display: flex;
-    flex-direction: column;
-    margin : 10px;
-    flex-grow: 1;
-}
 
 /*container cartes activités*/
 .container-4 {
@@ -127,11 +153,6 @@ a {
 .wrap-3 {
     max-width: 30%;
     flex-wrap: wrap;
-}
-
-.ombre {
-    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0,0,0,.15);
-    border-radius: 1rem;
 }
 
 .cartes-hotel {
@@ -489,6 +510,8 @@ p.footer {
     .visites-tablette {
         padding:5px 10px;
     }
+
+
 }
 
 /*MOBILE*/
@@ -500,9 +523,14 @@ p.footer {
     .navbar-nav {
         flex-direction: column;
     }
-    .container-1 {
+    .grand-container {
         flex-direction: column;
     }
+
+    .container-11 {
+        width: 100%;
+    }
+
     .container-5 {
         max-width: 98%;
         padding: 10px;
@@ -511,7 +539,7 @@ p.footer {
         width: 300px;
     }
     .form-wrapper-2 {
-        width: 280px;
+        width: 250px;
     }
     .form-wrapper-2 input {
         width: 140px;
