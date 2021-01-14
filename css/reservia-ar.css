@@ -39,10 +39,13 @@ a {
     flex-direction: row;
 }
 
+.flex {
+    display: flex;
+}
+
 /*CONTAINERS*/
 /*sections*/
 .grand-container {
-    border: 1px solid #ff0000;
     display: flex;
     flex-wrap: wrap;
     background-color: transparent;
@@ -57,7 +60,6 @@ a {
 
 /*encadré gris*/
 .container-carte-grand {
-    border: 1px solid blue;
     display: flex;
     padding: 1.5em;
     box-sizing: border-box;
@@ -527,16 +529,13 @@ p.footer {
         flex-direction: column;
     }
 
-    .container-11 {
-        width: 100%;
-    }
-
     .container-5 {
         max-width: 98%;
         padding: 10px;
+        flex-wrap: wrap;
     }
     .container-11 {
-        width: 300px;
+        width: 250px;
     }
     .form-wrapper-2 {
         width: 250px;
@@ -566,6 +565,10 @@ p.footer {
     .ligne-responsive {
         flex-direction: row;
     }
+    .colonne-responsive {
+        flex-direction: column;
+    }
+
     .carte-corps>.fa {
         font-size: 0.6em;
     }
